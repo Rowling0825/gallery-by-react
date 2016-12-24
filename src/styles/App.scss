@@ -1,24 +1,17 @@
-<<<<<<< HEAD
  @font-face{
   font-family: "icons-turn-arrow";
   src:url("../fonts/icons/turn-arrow.eot") format("embedded-opentype"), url("../fonts/icons/turn-arrow.woff") format("woff"), url("../fonts/icons/turn-arrow.ttf") format("truetype"), url("../fonts/icons/turn-arrow.svg") format("svg");
  }
-=======
->>>>>>> 49dd563bb651f1d06a6cf398d77bda07c0215e22
  body ,html{
   width: 100%;
   height: 100%;
-  background: #222;
+  background: #F8E4E4;
 }
-<<<<<<< HEAD
 /*旋转的实现 在CSS中实现
 .test-rotate{
 transform:rotate(30deg);
 }
 */
-=======
-
->>>>>>> 49dd563bb651f1d06a6cf398d77bda07c0215e22
 .content {
   width: 100%;
   height: 100%;
@@ -34,13 +27,12 @@ transform:rotate(30deg);
 /* image--start */
 .img-sec {
   position: relative;
-<<<<<<< HEAD
 
   width: 100%;
   height: 100%;
   overflow: hidden;
 perspective: 1800px;
-  background: #ddd;
+  background: #F8D8D8;
 
   /*突出层级关系把img-figure放到img-sec里面,但是需要采用@at root,减少选择器的层数*/
   @at-root{
@@ -48,12 +40,12 @@ perspective: 1800px;
       position: absolute;
 
       width: 320px;
-      height: 360px;
+      height: 420px;
       margin: 0;
       padding: 40px;
       cursor: pointer;
 
-      background-color: #fff;
+      background-color: #FBFAE6;
 
       box-sizing: border-box;
 
@@ -72,7 +64,7 @@ perspective: 1800px;
         .img-title {
           margin: 20px 0 0 0;
 
-          color: #a7a0a2;
+          color: #AEB5B4;
           font-size: 16px;
         }
            .img-back {
@@ -91,7 +83,7 @@ perspective: 1800px;
           line-height: 1.25;
           text-align: left;
 
-          background-color: #fff;
+          background-color: #E7FEFB;
 
           box-sizing: border-box;
           transform: rotateY(180deg) translateZ(1px);
@@ -105,13 +97,6 @@ perspective: 1800px;
   }
   }
   
-=======
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-
-  background: #ddd;
->>>>>>> 49dd563bb651f1d06a6cf398d77bda07c0215e22
 }
 /* image--end */
 
@@ -126,7 +111,6 @@ perspective: 1800px;
 
   width: 100%;
   text-align: center;
-<<<<<<< HEAD
 
   @at-root{
     .controller-unit{
@@ -158,7 +142,7 @@ transition: transform .6s ease-in-out,background-color .3s;
           -moz-osx-font-smoothing:grayscale;
 
         }
-      &.is-inverse{
+        &.is-inverse{
           background-color: #555;
           transform: rotateY(180deg);
         }
@@ -169,7 +153,5 @@ transition: transform .6s ease-in-out,background-color .3s;
 
   }
 }
-=======
->>>>>>> 49dd563bb651f1d06a6cf398d77bda07c0215e22
 }
 /* controller --end */
